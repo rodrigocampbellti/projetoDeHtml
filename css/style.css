@@ -1,0 +1,83 @@
+
+body{
+margin: 0;
+padding: 0;
+text-align: center;
+color: black;
+font-family: Georgia, 'Times New Roman', Times, serif;
+background: black url(../img/);
+background-size: 100%;
+background-repeat: no-repeat;
+
+}
+
+/* "padding" é a distância do objeto em relação às margens. "Margin" define a área de margem de todo o documento .
+ O margin sozinho mexe em todo o documento. Para determinar qual parte ele deve alterar,
+  deve-se dizer as direções: left, right, etc.. "background-repeat" impede da imagem de 
+  background se repetir quando "respondido" com "no-repeat". Verificar o restante dos comandos. */ 
+
+.musicav { /* definindo as medidas relativas à primeira div */
+
+margin: 3% auto;
+width: 80%;
+text-align: center;
+background: green;
+border: 1px solid black;
+font-size: 2em;
+
+}
+
+.principalv { 
+
+background-color: #10365E;
+color: black;
+margin-bottom: 5%;
+margin-bottom: 5%;
+
+}
+
+.principalv > ul{
+    
+}
+
+.principalv li{
+
+
+    display: inline-block; /* este põe todas as opções do menu uma do lado da outra.*/
+  padding: 0 0%;
+  border-right: 1px;   /* Se escrever "solid" mais uma cor, são criadas barras separando as opções do menu */
+  margin-left: 8.30%;  
+
+}
+
+.principalv li a{
+text-decoration: none; /* Este tira o sublinhado das opções do menu */
+color: rgb(238, 238, 245);
+font-size: 16px;
+
+}
+
+
+.principalv li a:hover{ /* O "hover" faz com que a cor da opção mude ao passar o mouse em cima */
+    text-decoration: none; /* Este tira o sublinhado das opções do menu */
+    color: grey;
+    font-size: 16px;
+    background-color: black; /* Faz com que a opção fique com um background de uma cor ao ter o mouse passado em cima */
+    transition: 1.5s;  /* Faz com que as alterações anteriores demorem alguns segundos para se formarem ao ter o mouse passado por cima */
+}
+
+.conteudov {
+
+font-size: 0.6em;
+text-align: justify;
+
+
+}
+
+
+.footer {
+
+color: red;
+font-size: 0.5em;
+
+}
