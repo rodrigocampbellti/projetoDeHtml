@@ -5,7 +5,7 @@ padding: 0;
 text-align: center;
 color: black;
 font-family: Georgia, 'Times New Roman', Times, serif;
-background: black url(../img/);
+background: black url(../img/relo1.jpg);
 background-size: 100%;
 background-repeat: no-repeat;
 
@@ -16,13 +16,13 @@ background-repeat: no-repeat;
   deve-se dizer as direções: left, right, etc.. "background-repeat" impede da imagem de 
   background se repetir quando "respondido" com "no-repeat". Verificar o restante dos comandos. */ 
 
-.musicav { /* definindo as medidas relativas à primeira div */
+.sitev { /* definindo as medidas relativas à primeira div */
 
 margin: 3% auto;
 width: 80%;
 text-align: center;
-background: green;
-border: 1px solid black;
+background: black;
+border: 1px solid blue;
 font-size: 2em;
 
 }
@@ -30,54 +30,131 @@ font-size: 2em;
 .principalv { 
 
 background-color: #10365E;
-color: black;
-margin-bottom: 5%;
-margin-bottom: 5%;
+color: white;
+margin: 0%;
 
 }
 
 .principalv > ul{
-    
+  
 }
 
 .principalv li{
 
 
     display: inline-block; /* este põe todas as opções do menu uma do lado da outra.*/
-  padding: 0 0%;
-  border-right: 1px;   /* Se escrever "solid" mais uma cor, são criadas barras separando as opções do menu */
-  margin-left: 8.30%;  
+  padding: 0 4%;
+  border-right: 50px;   /* Se escrever "solid" mais uma cor, são criadas barras separando as opções do menu */
+  margin: 0.3%;  
 
 }
 
 .principalv li a{
 text-decoration: none; /* Este tira o sublinhado das opções do menu */
 color: rgb(238, 238, 245);
-font-size: 16px;
+font-size: 19px;
 
 }
 
 
 .principalv li a:hover{ /* O "hover" faz com que a cor da opção mude ao passar o mouse em cima */
     text-decoration: none; /* Este tira o sublinhado das opções do menu */
-    color: grey;
+    color: rgb(230, 22, 22);
     font-size: 16px;
-    background-color: black; /* Faz com que a opção fique com um background de uma cor ao ter o mouse passado em cima */
+    background-color: blue; /* Faz com que a opção fique com um background de uma cor ao ter o mouse passado em cima */
     transition: 1.5s;  /* Faz com que as alterações anteriores demorem alguns segundos para se formarem ao ter o mouse passado por cima */
 }
 
-.conteudov {
+.conteudo1 {
 
 font-size: 0.6em;
 text-align: justify;
 
+width: 70%;
+margin: 0 0 0 5%;
 
 }
 
+.conteudo1 p{
+font-size: 16px;
+text-align: justify;
+
+}
+
+.conteudo2 {
+
+  font-size: 0.6em;
+  text-align: justify;
+  width: 70%;
+  margin: 0 0 0 5%;
+  
+  }
+  
+  .conteudo2 p{
+  font-size: 0.9em;
+  text-align: justify;
+  
+  }
+  
+  .conteudo3 {
+
+    font-size: 0.6em;
+    text-align: justify;
+    width: 70%;
+    margin: 0 0 0 5%;
+    
+    }
+    
+    .conteudo3 p{
+    font-size: 0.9em;
+    text-align: justify;
+    
+    }
 
 .footer {
 
 color: red;
 font-size: 0.5em;
+background-color: #10365E;
+color: white;
+font-size: 15px;
+padding: 2%;
+font-weight: bold;
+}
+
+.logo{     /*mexendo nas dimensões da imagem do logo */
+
+width: 10%;
+height: 10%;
+float: right;
+margin-left: 13%;
+}
+
+.logov{
+margin-left: 11.5%;
+margin-right: 16%;
 
 }
+.logoc{
+float: left;
+width: 10%;
+height: 10%;
+margin-right: 15.1%;
+
+}
+
+.logoz{
+
+  margin-left: 25%;
+
+}
+
+.anuncios{
+    color: green;
+    font-size: 1em;
+    text-align: right;
+    width: 70%;
+    margin-left: 22%;
+    text-decoration: underline;
+}
+
