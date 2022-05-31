@@ -3,9 +3,9 @@ body{
 margin: 0;
 padding: 0;
 text-align: center;
-color: black;
+color:  white;
 font-family: Georgia, 'Times New Roman', Times, serif;
-background: black url(../img/relo1.jpg);
+background: black url(../img/relo1.png);
 background-size: 100%;
 background-repeat: no-repeat;
 
@@ -150,11 +150,54 @@ margin-right: 15.1%;
 }
 
 .anuncios{
-    color: green;
+    color: blue;
     font-size: 1em;
     text-align: right;
     width: 70%;
     margin-left: 22%;
     text-decoration: underline;
+   position: relative;
+   top: 150px;
+}
+
+.zipzop {
+  width: 80px;
+position: relative;
+right: 725px;
+
+}
+
+.tabela{
+position: relative;
+bottom: 450px;
+
+}
+
+.mapa{
+position: relative;
+left: 660px;
+
+}
+
+.carrossel{
+width: 10%;
+height: 10%;
+display: inline-block;
+position: relative;
+bottom: 100px;
+right: 600px;
+
+}
+
+
+
+figure.imagemv{
+  display: inline-block;
+  margin-left: 10%;
+  padding: 1%;
+  border-radius: 1px;
+  background: black;
+  text-align: center;
+font-size: 60%;
 }
 
