@@ -32,8 +32,40 @@
     <li><a href="cadastro.html">Cadastro</a></li>
     <li><a href="contato.html">Contato</a></li>
     <li><a href="faleconosco.html">Fale conosco</a> </li>
+
 </ul>
 
+</div>
+<div class="container">
+<div class="formulario">
+  
+<form>
+<fieldset class="formato">
+    <legend> Fale conosco </legend>
+<label>Informe teu nome:</label>
+<input type="text" name="nome" placeholder="Digite teu nome aqui" size="20" maxlength="20" required>   <!---O "required" faz com que o formulário só possa ser enviado após o campo ser preenchido. O"maxlength" limita a quantidade de caracteres.-->
+<br> <br>
+<label>Informe teu e-mail:</label>
+<input type="text" name="email" placeholder="Digite teu email aqui" size="20">
+<br> <br>
+<label>Selecione o assunto</label>
+<select name="assunto"><Option value="0">Selecione</Option>
+<option Value="1">Sugestões</option>
+<option value="2">Críticas</option>
+<option value="3">Elogios</option>
+<option value="4">Outros</option>
+</select>
+<br><br>
+<label>Escreva tua mensagem</label>
+<br> <br>
+<textarea name="recado" rows="5" placeholder="Deixe uma mensagem aqui" cols="60"></textarea>   <!---Comando "cols" faz com que o espaço para escrever fique maior-->
+<br>
+<input type="submit" name="enviar" value="ENVIAR">
+<input type="reset" name="limpar" value="lIMPAR">
+</fieldset>
+</form>
+
+</div>
 </div>
 
 <div class="footerx"> <!---É o rodapé--->
